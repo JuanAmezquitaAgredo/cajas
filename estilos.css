@@ -1,0 +1,178 @@
+
+body{
+    background-color: beige;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+
+.td{
+    display: flex;
+}
+
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.frase1, .frase2, .frase3{
+    background-color: aqua;
+    width: 100%;
+    height: 100px;
+    margin: 40px;
+    padding: 20px;
+    text-align: center;
+    border: 5px solid black;
+
+}
+
+.frase1:hover, .frase2:hover, .frase3:hover{
+    background-color: rgb(162, 255, 255);
+    width: 100%;
+    height: 100px;
+    margin: 40px;
+    padding: 20px;
+    text-align: center;
+    border: 5px solid black;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px rgb(58, 229, 255);
+    border-radius: 15px;
+}
+
+.frase4, .frase5, .frase6{
+    background: linear-gradient(to right, red,white,blue);
+    width: 100%;
+    height: 100px;
+    margin: 40px;
+    padding: 20px;
+    text-align: center;
+    border: 5px solid rgb(92, 0, 0);
+}
+
+.frase4:hover, .frase5:hover, .frase6:hover{
+    background: linear-gradient(to right, rgb(248, 100, 100),white,rgb(100, 100, 254));
+    width: 100%;
+    height: 100px;
+    margin: 40px;
+    padding: 20px;
+    text-align: center;
+    border: 5px solid black;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px rgb(0, 42, 208);
+    border-radius: 15px;
+}
+
+.frase7, .frase8, .frase9{
+    background: radial-gradient(blue,black);
+    color: white;
+    width: 100%;
+    height: 100px;
+    margin: 40px;
+    padding: 20px;
+    text-align: center;
+    border: 5px solid rgb(13, 51, 0);
+    
+}
+
+.frase7:hover,
+.frase8:hover,
+.frase9:hover {
+    background: radial-gradient(blue,black);
+    width: 100%;
+    height: 100px;
+    margin: 40px;
+    padding: 20px;
+    text-align: center;
+    border: 5px solid rgb(13, 51, 0);
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px rgb(0, 42, 208);
+    border-radius: 15px;
+}
+
+@media(max-width:1273px){
+    .td{
+        flex-direction: column;
+        align-items: center;  
+    }
+        .frase1,
+        .frase2,
+        .frase3 {
+            background-color: aqua;
+            width: 300px;
+            height: 100px;
+            margin: 40px;
+            padding: 20px;
+            text-align: center;
+            border: 5px solid black;
+        }
+    
+        .frase1:hover,
+        .frase2:hover,
+        .frase3:hover {
+            background-color: rgb(162, 255, 255);
+            width: 300px;
+            height: 100px;
+            margin: 40px;
+            padding: 20px;
+            text-align: center;
+            border: 5px solid black;
+            transform: scale(1.1);
+            box-shadow: 5px 5px 10px rgb(58, 229, 255);
+            border-radius: 15px;
+        }
+    
+        .frase4,
+        .frase5,
+        .frase6 {
+            background: linear-gradient(to right, red, white, blue);
+            width: 300px;
+            height: 100px;
+            margin: 40px;
+            padding: 20px;
+            text-align: center;
+            border: 5px solid rgb(92, 0, 0);
+        }
+    
+        .frase4:hover,
+        .frase5:hover,
+        .frase6:hover {
+            background: linear-gradient(to right, rgb(248, 100, 100), white, rgb(100, 100, 254));
+            width: 300px;
+            height: 100px;
+            margin: 40px;
+            padding: 20px;
+            text-align: center;
+            border: 5px solid black;
+            transform: scale(1.1);
+            box-shadow: 5px 5px 10px rgb(0, 42, 208);
+            border-radius: 15px;
+        }
+    
+        .frase7,
+        .frase8,
+        .frase9 {
+            background: radial-gradient(blue, black);
+            color: white;
+            width: 300px;
+            height: 100px;
+            margin: 40px;
+            padding: 20px;
+            text-align: center;
+            border: 5px solid rgb(13, 51, 0);
+    
+        }
+    
+        .frase7:hover,
+        .frase8:hover,
+        .frase9:hover {
+            background: radial-gradient(blue, black);
+            width: 300px;
+            height: 100px;
+            margin: 40px;
+            padding: 20px;
+            text-align: center;
+            border: 5px solid rgb(13, 51, 0);
+            transform: scale(1.1);
+            box-shadow: 5px 5px 10px rgb(0, 42, 208);
+            border-radius: 15px;
+        }
+}
